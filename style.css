@@ -1,0 +1,176 @@
+* { 
+    /*outline: 1px solid red;
+    outline-offset: -1px;*/
+    margin:0%;
+    font-family: Roboto;
+  }
+
+.nav-hero {
+  background-color: #1f2937;
+}
+
+.nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo p{
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.menu ul{
+  padding: 10px;
+}
+
+.hero{
+  width: 70%;
+  display:flex;
+  margin: 75px auto 100px auto;
+
+}
+
+.hero-left{
+  padding-right: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+
+.hero-left h1{
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-left p{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 10px;
+}
+
+.sign-up-button{
+  background-color: #3882F6;
+  color: #fff; 
+  font-weight: 800;
+  padding: 2px 11px 2px 11px;
+  border-radius: 3px;
+  width: fit-content;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.hero-right img{
+  padding: 50px 2px 50px 2px;
+
+}
+
+
+.information{
+  margin-top: 50px;
+  width: 70%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+
+}
+
+.information h2{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight:900;
+}
+
+.info-boxes{
+  display: flex;
+  justify-content: space-around;
+  color: #1f2937;
+  margin-top: 55px;
+}
+.info-img{
+  border: 4px solid #3882F6;
+  border-radius: 7px;
+}
+
+.info-boxes p{
+  color: #1f2937;
+  padding: 5px 24px 5px 24px;
+}
+
+.quote-section{
+  background-color: #E5E7EB;
+  margin: auto;
+}
+
+.quote{
+  width: 70%;
+  padding: 150px;
+  margin: auto;
+}
+
+.quote quote{
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote h3{
+  color: #1f2937;
+  text-align: right;
+}
+
+.cta-section{
+  margin: 50px auto 50px auto;
+
+}
+
+.blue-box{
+  width: 60%;
+  border-radius: 5px;
+  background-color: #3882F6;
+  display: flex;
+  margin: 35px auto 35px auto;
+  justify-content: space-around;
+  color:#E5E7EB;
+
+}
+
+.blue-box-left{
+  padding: 50px;
+
+}
+
+.blue-box-right{
+  align-self: center;
+
+}
+
+.sign-up-button-cta{
+  background-color: #3882F6;
+  color: #fff; 
+  font-weight: 800;
+  padding: 2px 11px 2px 11px;
+  border-radius: 3px;
+  width: fit-content;
+  margin-top: 10px;
+  font-size: 16px;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.footer{
+  background-color: #1f2937;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  color: #E5E7EB;
+}
